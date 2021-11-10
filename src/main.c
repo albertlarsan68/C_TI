@@ -5,20 +5,12 @@
 // Description: Random codes
 ////////////////////////////////////////
 
+#include "main.h"
+
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
 #include <tice.h>
-
-/**
- * @brief Prints text at position in main screen
- * 
- * @param text Text to print
- * @param x Column to start text
- * @param y Line to print text
- */
-void printText(const char *text, uint8_t x, uint8_t y);
-
 
 int main(void)
 {

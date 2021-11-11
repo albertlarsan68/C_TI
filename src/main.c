@@ -27,9 +27,3 @@ int main(void)
     return 0;
 }
 
-void printText(const char *text, uint8_t xpos, uint8_t ypos)
-{
-    os_SetCursorPos(ypos, xpos);
-    os_PutStrFull(text);
-}
-
